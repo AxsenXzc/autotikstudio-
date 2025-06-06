@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Terms of Service - AutoTik Studio</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+  body, html {
+    margin: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    overflow-x: hidden;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  /* 3D animated background */
+  body::before {
+    content: "";
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background:
+      radial-gradient(circle at 25% 25%, rgba(255,255,255,0.1), transparent 50%),
+      radial-gradient(circle at 75% 75%, rgba(255,255,255,0.1), transparent 50%);
+    animation: moveBG 20s linear infinite;
+    z-index: 0;
+    filter: blur(60px);
+  }
+
+  @keyframes moveBG {
+    0% { transform: translate(0, 0);}
+    50% { transform: translate(50px, 50px);}
+    100% { transform: translate(0, 0);}
+  }
+
+  .container {
+    position: relative;
+    max-width: 700px;
+    background: rgba(30, 30, 50, 0.85);
+    border-radius: 20px;
+    padding: 2.5rem 3rem;
+    box-shadow:
+      10px 10px 20px rgba(0,0,0,0.7),
+      -10px -10px 20px rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    z-index: 1;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-shadow: 0 0 10px #a29bfe;
+  }
+
+  ol {
+    padding-left: 1.2rem;
+  }
+
+  ol li {
+    margin-bottom: 1.1rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+
+  ol li strong {
+    font-weight: 600;
+    color: #81a1c1;
+  }
+
+  p {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  a.email-link {
+    color: #81a1c1;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    background: linear-gradient(145deg, #7f5af0, #6246ea);
+    border-radius: 15px;
+    box-shadow:
+      0 5px 15px rgba(127, 90, 240, 0.6),
+      inset 0 -3px 5px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+
+  a.email-link:hover {
+    background: linear-gradient(145deg, #6246ea, #7f5af0);
+    box-shadow:
+      0 8px 25px rgba(127, 90, 240, 0.9),
+      inset 0 -5px 7px rgba(0,0,0,0.3);
+    transform: translateY(-3px);
+  }
+</style>
+</head>
+<body>
+  <div class="container" role="main">
+    <h1>Terms of Service</h1>
+    <ol>
+      <li><strong>Use of Service</strong><br>You agree to use our app responsibly and not for any unlawful or harmful purposes.</li>
+      <li><strong>Content</strong><br>We provide tools to create and automate TikTok videos using free stock footage and AI scripts. You are responsible for the content you publish.</li>
+      <li><strong>Intellectual Property</strong><br>You retain ownership of your created content. We respect copyrights of stock footage and AI content used.</li>
+      <li><strong>Limitations</strong><br>We do not guarantee uninterrupted or error-free service. Use at your own risk.</li>
+      <li><strong>Termination</strong><br>We reserve the right to suspend or terminate access for misuse.</li>
+      <li><strong>Changes to Terms</strong><br>We may update these terms occasionally. Continued use means acceptance of changes.</li>
+    </ol>
+    <p>If you have questions, contact us at <a href="mailto:cshop0784@gmail.com" class="email-link">cshop0784@gmail.com</a>.</p>
+  </div>
+</body>
+</html>
